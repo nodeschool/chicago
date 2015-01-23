@@ -1,0 +1,79 @@
+body{
+  font-family: 'Source Sans Pro';
+}
+
+.jumbotron{
+  background: yellow url('../img/chicago-dusk.jpg') center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;.
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  position: top;
+  height: 500px; 
+  color: #fff;
+}
+
+
+.nodeschool-logo{
+  width:100%;
+}
+
+.nodeschool-logo img{
+  width:300px;
+  height:126px;
+  display: block;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;          
+}
+
+.shadow {
+    -webkit-filter: drop-shadow( 1px 3px 3px rgba(0,0,0,1) );
+            filter: drop-shadow( 1px 3px 3px rgba(0,0,0,1) ); /* Same syntax as box-shadow */
+}
+
+.jumbotron{
+  position: relative;
+}
+
+.jumbotron h1{
+  margin:0;
+  font-weight: bold;
+}
+.jumbotron h1 span{
+  font-weight: 400 !important;
+}
+.jumbotron h2{
+  margin:10px
+}
+
+
+.uppershadow{
+  top: 0;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  background-color: rgba(0,0,0,0);
+  background-image: -webkit-linear-gradient(bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.5) 100%);
+  background-image: linear-gradient(bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.5) 100%);
+}
+.lowershadow{
+  bottom: 0;
+  height: 320px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  background-color: rgba(0,0,0,0);
+  background-image: -webkit-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,.5) 100%);
+  background-image: linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,.5) 100%);
+}
+
+
+footer{
+  margin: 30px;
+  padding: 20px;
+  border-top:1px dotted #f1f1f1;
+}
