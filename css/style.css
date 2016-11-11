@@ -2,32 +2,10 @@ body{
   font-family: 'Source Sans Pro';
 }
 
-.jumbotron{
-  background: yellow url('../img/chicago-dusk.jpg') center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;.
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
-  position: top;
-  height: 500px; 
-  color: #fff;
-}
-
-
-.nodeschool-logo{
+img.logo{
   width:100%;
 }
 
-.nodeschool-logo img{
-  width:300px;
-  height:126px;
-  display: block;
-  padding: 0px;
-  overflow: hidden;
-  position: relative;          
-}
 
 .shadow {
     -webkit-filter: drop-shadow( 1px 3px 3px rgba(0,0,0,1) );
@@ -35,7 +13,8 @@ body{
 }
 
 .jumbotron{
-  position: relative;
+  background-color:#3ca8ff;
+  color: white;
 }
 
 .jumbotron h1{
