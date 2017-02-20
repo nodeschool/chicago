@@ -1,0 +1,25 @@
+{
+  "name": "nodeschool-chicago",
+  "version": "1.0.0",
+  "description": "Nodeschool.io/chicago",
+  "main": "index.js",
+  "scripts": {
+    "test": "python -m SimpleHTTPServer 1234"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeschool/chicago.git"
+  },
+  "keywords": [
+    "Nodeschool",
+    "nodeschoolchicago",
+    "nodeschool",
+    "chicago"
+  ],
+  "author": "Aziz Ali (@heyaziz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodeschool/chicago/issues"
+  },
+  "homepage": "https://github.com/nodeschool/chicago#readme"
+}

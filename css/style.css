@@ -15,6 +15,8 @@ img.logo{
 .jumbotron{
   background-color:#3ca8ff;
   color: white;
+  background: url('../img/chicago-bean-1.jpg') no-repeat;
+  background-size: cover;
 }
 
 .jumbotron h1{
