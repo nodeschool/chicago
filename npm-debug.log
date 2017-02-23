@@ -1,48 +1,27 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node',
-1 verbose cli   '/Users/aali/homebrew/bin/npm',
+1 verbose cli [ '/Users/aali/.nvm/versions/node/v6.7.0/bin/node',
+1 verbose cli   '/Users/aali/.nvm/versions/node/v6.7.0/bin/npm',
 1 verbose cli   'run',
-1 verbose cli   'test' ]
-2 info using npm@3.10.7
-3 info using node@v4.2.3
-4 verbose run-script [ 'pretest', 'test', 'posttest' ]
-5 info lifecycle nodeschool-chicago@1.0.0~pretest: nodeschool-chicago@1.0.0
-6 silly lifecycle nodeschool-chicago@1.0.0~pretest: no script for pretest, continuing
-7 info lifecycle nodeschool-chicago@1.0.0~test: nodeschool-chicago@1.0.0
-8 verbose lifecycle nodeschool-chicago@1.0.0~test: unsafe-perm in lifecycle true
-9 verbose lifecycle nodeschool-chicago@1.0.0~test: PATH: /Users/aali/homebrew/lib/node_modules/npm/bin/node-gyp-bin:/Users/aali/projects/nodeschool-chicago/node_modules/.bin:/Users/aali/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/Users/aali/homebrew/opt/fzf/bin
-10 verbose lifecycle nodeschool-chicago@1.0.0~test: CWD: /Users/aali/projects/nodeschool-chicago
-11 silly lifecycle nodeschool-chicago@1.0.0~test: Args: [ '-c', 'python -m SimpleHTTPServer -m 1234' ]
-12 silly lifecycle nodeschool-chicago@1.0.0~test: Returned: code: 1  signal: null
-13 info lifecycle nodeschool-chicago@1.0.0~test: Failed to exec test script
-14 verbose stack Error: nodeschool-chicago@1.0.0 test: `python -m SimpleHTTPServer -m 1234`
-14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/Users/aali/homebrew/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at EventEmitter.emit (events.js:172:7)
-14 verbose stack     at ChildProcess.<anonymous> (/Users/aali/homebrew/lib/node_modules/npm/lib/utils/spawn.js:40:14)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at ChildProcess.emit (events.js:172:7)
-14 verbose stack     at maybeClose (internal/child_process.js:818:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-15 verbose pkgid nodeschool-chicago@1.0.0
-16 verbose cwd /Users/aali/projects/nodeschool-chicago
-17 error Darwin 15.6.0
-18 error argv "/usr/local/bin/node" "/Users/aali/homebrew/bin/npm" "run" "test"
-19 error node v4.2.3
-20 error npm  v3.10.7
-21 error code ELIFECYCLE
-22 error nodeschool-chicago@1.0.0 test: `python -m SimpleHTTPServer -m 1234`
-22 error Exit status 1
-23 error Failed at the nodeschool-chicago@1.0.0 test script 'python -m SimpleHTTPServer -m 1234'.
-23 error Make sure you have the latest version of node.js and npm installed.
-23 error If you do, this is most likely a problem with the nodeschool-chicago package,
-23 error not with npm itself.
-23 error Tell the author that this fails on your system:
-23 error     python -m SimpleHTTPServer -m 1234
-23 error You can get information on how to open an issue for this project with:
-23 error     npm bugs nodeschool-chicago
-23 error Or if that isn't available, you can get their info via:
-23 error     npm owner ls nodeschool-chicago
-23 error There is likely additional logging output above.
-24 verbose exit [ 1, true ]
+1 verbose cli   'start' ]
+2 info using npm@3.10.3
+3 info using node@v6.7.0
+4 verbose stack Error: missing script: start
+4 verbose stack     at run (/Users/aali/.nvm/versions/node/v6.7.0/lib/node_modules/npm/lib/run-script.js:151:19)
+4 verbose stack     at /Users/aali/.nvm/versions/node/v6.7.0/lib/node_modules/npm/lib/run-script.js:61:5
+4 verbose stack     at /Users/aali/.nvm/versions/node/v6.7.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (/Users/aali/.nvm/versions/node/v6.7.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+4 verbose stack     at final (/Users/aali/.nvm/versions/node/v6.7.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+4 verbose stack     at then (/Users/aali/.nvm/versions/node/v6.7.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+4 verbose stack     at /Users/aali/.nvm/versions/node/v6.7.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:311:12
+4 verbose stack     at /Users/aali/.nvm/versions/node/v6.7.0/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+4 verbose stack     at tryToString (fs.js:455:3)
+4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+5 verbose cwd /Users/aali/projects/nodeschool-chicago
+6 error Darwin 15.6.0
+7 error argv "/Users/aali/.nvm/versions/node/v6.7.0/bin/node" "/Users/aali/.nvm/versions/node/v6.7.0/bin/npm" "run" "start"
+8 error node v6.7.0
+9 error npm  v3.10.3
+10 error missing script: start
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
