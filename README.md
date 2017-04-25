@@ -4,13 +4,13 @@
 
 **Want to attend the next Nodeschool in Chicago?**
 
-Email aziz [@] ilovecoding.org and i'll add you to the list
+Email marcus.hogue@appdynamics.com and i'll add you to the list
 
 
 
 **Want to become a mentor @ Nodeschool Chicago?**
 
-Email aziz [@] ilovecoding.org
+Email marcus.hogue@appdynamics.com
 
 
 
